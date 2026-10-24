@@ -1,15 +1,15 @@
 {
-    "version":  "0.5.4",
-    "publishedAt":  "2026-10-24T20:02:12.251Z",
-    "portableUrl":  "https://github.com/mannanashraf785-sudo/crimefactory-studio-releases/releases/download/v0.5.4/CrimeFactory-Studio-Portable-0.5.4.exe",
-    "sha256":  "6a6b3de70704100e4ed1adbf979bb4adafd2b4c7309e30114f54aaba768177bb",
-    "sizeBytes":  118661632,
-    "releaseNotes":  [
-                         "Provider UI redesign: simple API key view with collapsed Advanced Settings.",
-                         "FameSpeak integration fixed: tests /account/usage endpoint, no unconditional blocker.",
-                         "OpenLux and Gemini shown as separate provider cards.",
-                         "Simple failure messages in Test Connection — no raw HTTP codes in UI.",
-                         "HTML error responses sanitized before reaching the settings panel."
-                     ],
-    "minimumSupportedVersion":  "0.5.0"
+  "version": "0.5.5",
+  "publishedAt": "2026-10-24T15:49:00.367Z",
+  "portableUrl": "https://github.com/mannanashraf785-sudo/crimefactory-studio-releases/releases/download/v0.5.5/CrimeFactory-Studio-Portable-0.5.5.exe",
+  "sha256": "343b69032f4c2eee61972f259f0c91f6de4ff7918a47b38e5f656cc6b0902a65",
+  "sizeBytes": 118861565,
+  "releaseNotes": [
+    "Self-update installer repaired: native cf-updater-helper.exe replaces broken .mjs helper.",
+    "Helper is a standalone Windows EXE (Rust, no Node.js required) — runs after app exits.",
+    "Granular install-error messages: missing helper, copy failed, launch failed, rollback.",
+    "Technical Details collapsible in Settings → About when an install error occurs.",
+    "Packaging assertion: cf-updater-helper.exe verified present in win-unpacked/resources."
+  ],
+  "minimumSupportedVersion": "0.5.0"
 }
