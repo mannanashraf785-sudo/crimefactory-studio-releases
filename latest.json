@@ -1,0 +1,13 @@
+{
+  "version": "0.5.3",
+  "publishedAt": "2026-10-24T14:06:21.844Z",
+  "portableUrl": "https://github.com/mannanashraf785-sudo/crimefactory-studio-releases/releases/download/v0.5.3/CrimeFactory-Studio-Portable-0.5.3.exe",
+  "sha256": "f63a8408c60c0c33057775840c5dbbcbd7de7e9a57d545e7dd26c810da2af48b",
+  "sizeBytes": 118663679,
+  "releaseNotes": [
+    "GitHub repository connected. One-click updater activated.",
+    "Credential Profiles panel for all 7 API providers.",
+    "Settings → About shows live update check."
+  ],
+  "minimumSupportedVersion": "0.5.0"
+}
