@@ -1,12 +1,12 @@
 {
-  "version": "0.5.6",
-  "publishedAt": "2026-10-24T15:53:21.657Z",
-  "portableUrl": "https://github.com/mannanashraf785-sudo/crimefactory-studio-releases/releases/download/v0.5.6/CrimeFactory-Studio-Portable-0.5.6.exe",
-  "sha256": "fb58e90e4217ba39f285d2e939883879c0f053b7755b1cd6a22e7b16c88842f5",
-  "sizeBytes": 118861965,
+  "version": "0.5.7",
+  "publishedAt": "2026-10-24T16:00:48.910Z",
+  "portableUrl": "https://github.com/mannanashraf785-sudo/crimefactory-studio-releases/releases/download/v0.5.7/CrimeFactory-Studio-Portable-0.5.7.exe",
+  "sha256": "3b94994cdb3f1c922c1298a3faef11c448f6df242e432697403c58b83a7341e0",
+  "sizeBytes": 118866158,
   "releaseNotes": [
-    "Self-update replacement logic corrected and verified against an existing destination EXE.",
-    "Standalone native helper removes the unlocked old destination before moving the verified update into place.",
+    "Updater manifest checks bypass stale CDN cache; legacy provider keys migrate automatically into credential profiles.",
+    "API key fields now clearly say Enter API key when no saved profile exists.",
     "Granular install-error messages: missing helper, copy failed, launch failed, rollback.",
     "Technical Details collapsible in Settings → About when an install error occurs.",
     "Packaging assertion: cf-updater-helper.exe verified present in win-unpacked/resources."
