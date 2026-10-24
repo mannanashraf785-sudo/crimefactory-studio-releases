@@ -1,13 +1,15 @@
 {
-  "version": "0.5.3",
-  "publishedAt": "2026-10-24T14:06:21.844Z",
-  "portableUrl": "https://github.com/mannanashraf785-sudo/crimefactory-studio-releases/releases/download/v0.5.3/CrimeFactory-Studio-Portable-0.5.3.exe",
-  "sha256": "f63a8408c60c0c33057775840c5dbbcbd7de7e9a57d545e7dd26c810da2af48b",
-  "sizeBytes": 118663679,
+  "version": "0.5.4",
+  "publishedAt": "2026-10-24T14:57:16.968Z",
+  "portableUrl": "https://github.com/mannanashraf785-sudo/crimefactory-studio-releases/releases/download/v0.5.4/CrimeFactory-Studio-Portable-0.5.4.exe",
+  "sha256": "6a6b3de70704100e4ed1adbf979bb4adafd2b4c7309e30114f54aaba768177bb",
+  "sizeBytes": 118661632,
   "releaseNotes": [
-    "GitHub repository connected. One-click updater activated.",
-    "Credential Profiles panel for all 7 API providers.",
-    "Settings → About shows live update check."
+    "Provider UI redesign: simple API key view with Advanced Settings section.",
+    "FameSpeak integration fixed: tests /account/usage, no unconditional blocker.",
+    "OpenLux and Gemini shown as separate providers.",
+    "Simple failure messages in Test Connection (no raw HTTP dumps).",
+    "HTML error responses sanitized before reaching the UI."
   ],
   "minimumSupportedVersion": "0.5.0"
 }
