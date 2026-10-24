@@ -1,15 +1,15 @@
 {
-  "version": "0.5.4",
-  "publishedAt": "2026-10-24T14:57:16.968Z",
-  "portableUrl": "https://github.com/mannanashraf785-sudo/crimefactory-studio-releases/releases/download/v0.5.4/CrimeFactory-Studio-Portable-0.5.4.exe",
-  "sha256": "6a6b3de70704100e4ed1adbf979bb4adafd2b4c7309e30114f54aaba768177bb",
-  "sizeBytes": 118661632,
-  "releaseNotes": [
-    "Provider UI redesign: simple API key view with Advanced Settings section.",
-    "FameSpeak integration fixed: tests /account/usage, no unconditional blocker.",
-    "OpenLux and Gemini shown as separate providers.",
-    "Simple failure messages in Test Connection (no raw HTTP dumps).",
-    "HTML error responses sanitized before reaching the UI."
-  ],
-  "minimumSupportedVersion": "0.5.0"
+    "version":  "0.5.4",
+    "publishedAt":  "2026-10-24T20:02:12.251Z",
+    "portableUrl":  "https://github.com/mannanashraf785-sudo/crimefactory-studio-releases/releases/download/v0.5.4/CrimeFactory-Studio-Portable-0.5.4.exe",
+    "sha256":  "6a6b3de70704100e4ed1adbf979bb4adafd2b4c7309e30114f54aaba768177bb",
+    "sizeBytes":  118661632,
+    "releaseNotes":  [
+                         "Provider UI redesign: simple API key view with collapsed Advanced Settings.",
+                         "FameSpeak integration fixed: tests /account/usage endpoint, no unconditional blocker.",
+                         "OpenLux and Gemini shown as separate provider cards.",
+                         "Simple failure messages in Test Connection — no raw HTTP codes in UI.",
+                         "HTML error responses sanitized before reaching the settings panel."
+                     ],
+    "minimumSupportedVersion":  "0.5.0"
 }
