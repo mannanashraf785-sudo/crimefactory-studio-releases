@@ -1,12 +1,12 @@
 {
-  "version": "0.5.5",
-  "publishedAt": "2026-10-24T15:49:00.367Z",
-  "portableUrl": "https://github.com/mannanashraf785-sudo/crimefactory-studio-releases/releases/download/v0.5.5/CrimeFactory-Studio-Portable-0.5.5.exe",
-  "sha256": "343b69032f4c2eee61972f259f0c91f6de4ff7918a47b38e5f656cc6b0902a65",
-  "sizeBytes": 118861565,
+  "version": "0.5.6",
+  "publishedAt": "2026-10-24T15:53:21.657Z",
+  "portableUrl": "https://github.com/mannanashraf785-sudo/crimefactory-studio-releases/releases/download/v0.5.6/CrimeFactory-Studio-Portable-0.5.6.exe",
+  "sha256": "fb58e90e4217ba39f285d2e939883879c0f053b7755b1cd6a22e7b16c88842f5",
+  "sizeBytes": 118861965,
   "releaseNotes": [
-    "Self-update installer repaired: native cf-updater-helper.exe replaces broken .mjs helper.",
-    "Helper is a standalone Windows EXE (Rust, no Node.js required) — runs after app exits.",
+    "Self-update replacement logic corrected and verified against an existing destination EXE.",
+    "Standalone native helper removes the unlocked old destination before moving the verified update into place.",
     "Granular install-error messages: missing helper, copy failed, launch failed, rollback.",
     "Technical Details collapsible in Settings → About when an install error occurs.",
     "Packaging assertion: cf-updater-helper.exe verified present in win-unpacked/resources."
