@@ -1,15 +1,18 @@
 {
-  "version": "0.5.7",
-  "publishedAt": "2026-10-24T16:00:48.910Z",
-  "portableUrl": "https://github.com/mannanashraf785-sudo/crimefactory-studio-releases/releases/download/v0.5.7/CrimeFactory-Studio-Portable-0.5.7.exe",
-  "sha256": "3b94994cdb3f1c922c1298a3faef11c448f6df242e432697403c58b83a7341e0",
-  "sizeBytes": 118866158,
+  "version": "0.5.8",
+  "publishedAt": "2026-10-25T03:25:58.651Z",
+  "portableUrl": "https://github.com/mannanashraf785-sudo/crimefactory-studio-releases/releases/download/v0.5.8/Milkyway-Studio-Portable-0.5.8.exe",
+  "sha256": "853ad4aae8185f70f2a1ece9be8a99ae3c8c936dff96ad11fec276e2af66be38",
+  "sizeBytes": 119561207,
   "releaseNotes": [
-    "Updater manifest checks bypass stale CDN cache; legacy provider keys migrate automatically into credential profiles.",
-    "API key fields now clearly say Enter API key when no saved profile exists.",
-    "Granular install-error messages: missing helper, copy failed, launch failed, rollback.",
-    "Technical Details collapsible in Settings → About when an install error occurs.",
-    "Packaging assertion: cf-updater-helper.exe verified present in win-unpacked/resources."
+    "Milkyway Studio v0.5.8 — multi-tool platform launcher.",
+    "CrimeFactory is now a tool module behind /tools/crimefactory.",
+    "Avatar Studio placeholder (coming soon).",
+    "Tool registry pattern: add a new tool by appending one entry to TOOL_REGISTRY.",
+    "Migration 0013: tool_type column scopes projects per tool; CrimeFactory screens filter exclusively.",
+    "Startup routing: Milkyway home shown by default; \"Open CrimeFactory directly\" toggle bypasses it.",
+    "Portable EXE renamed from CrimeFactory-Studio-Portable-* to Milkyway-Studio-Portable-*.",
+    "appId and %APPDATA%\\CrimeFactory Studio data folder unchanged — zero data migration required."
   ],
   "minimumSupportedVersion": "0.5.0"
 }
